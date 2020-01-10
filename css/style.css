@@ -1,0 +1,85 @@
+/*reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  color: black;
+
+
+}
+
+body {
+  padding-top: 76px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*header*/
+
+.origamid {
+  font-size: 100px;
+  font-style: italic;
+  border: 1px solid red;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+    0 4px 8px 0 rgba(0, 0, 0, .05);
+}
+
+/*section vantagens*/
+
+.icone {
+  height: 100px;
+}
+
+/*section*/
+
+#home-quote {
+  background: url('../img/bg-quote.jpg') center center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+
+  body {
+    padding-top: 0;
+  }
+
+  .fixed-top {
+    position: relative
+  }
+}
+
+/*footer*/
+
+.max-w-btn {
+  max-width: 140px;
+}
+
+/*Planos*/
+.lista-plano li+li {
+  border-top: 2px solid rgba(0, 0, 0, .04);
+}
+
+
+.lista-plano li {
+  padding: 1rem;
+
+}
